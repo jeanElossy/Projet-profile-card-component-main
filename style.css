@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  background: #1fa1b3ea;
+  overflow: hidden;
+}
+
+.svg-circle {
+  position: fixed;
+}
+.svg-circle--top {
+  top: -80%;
+  left: -25%;
+  color: #19a2ae;
+}
+.svg-circle--bottom {
+  bottom: -90%;
+  right: -20%;
+  z-index: -2;
+}
+
+.container {
+  width: 350px;
+  height: 380px;
+  background: #f8f8f8;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 30px rgba(90, 90, 90, 0.5);
+}
+.container__content__top {
+  width: 100%;
+  height: 40%;
+  background: #69e4fa;
+  border-radius: 15px 15px 0px 0px;
+}
+.container__content__top__circle {
+  background: white;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+.container__content__top__circle img {
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  margin: 5px;
+}
+
+.container__content__middle {
+  text-align: center;
+  margin-top: 70px;
+}
+.container__content__middle strong {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container__content__middle p {
+  margin-top: 8px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.container__content__dividing {
+  margin-top: 25px;
+  background-color: #d3d1d1;
+  width: 100%;
+  height: 1px;
+}
+
+.container__content__bottom {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.container__content__bottom__box {
+  text-align: center;
+  font-size: 0.8em;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container__content__bottom__box span {
+  font-weight: 1000;
+  font-size: 1.9em;
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */
