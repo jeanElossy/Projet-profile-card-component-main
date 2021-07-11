@@ -4,14 +4,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 * body {
   background: #1fa1b3ea;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .svg-circle {
   position: fixed;
+  z-index: -2;
 }
 .svg-circle--top {
   top: -80%;
@@ -21,7 +26,6 @@
 .svg-circle--bottom {
   bottom: -90%;
   right: -20%;
-  z-index: -2;
 }
 
 .container {
@@ -29,11 +33,10 @@
   height: 380px;
   background: #f8f8f8;
   border-radius: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 45%;
   box-shadow: 0px 0px 30px rgba(90, 90, 90, 0.5);
+  display: flex;
+  flex-direction: column;
 }
 .container__content__top {
   width: 100%;
@@ -46,10 +49,8 @@
   width: 105px;
   height: 105px;
   border-radius: 50%;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -35%);
+  margin: auto;
+  margin-top: 100px;
 }
 .container__content__top__circle img {
   border-radius: 50%;
